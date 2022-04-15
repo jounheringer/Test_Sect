@@ -1,0 +1,91 @@
+body{
+  /*Centralizar dados e mudar fonte*/
+  text-align: center;
+  font: 20px Arial, sans-serif;
+}
+
+form{
+  /*centralizar dados do formulario*/
+  display: inline-block;
+}
+
+fieldset{
+  /*Largura do formulario*/
+  width: 500px;
+  /*Centralizar dados*/
+  text-align:  center;
+  /*Design da borda*/
+  border: 0px solid #C0C0C0;
+  box-shadow: 0px 0px 10px #7B68EE;
+}
+
+label{
+  /*Justificar o titulo dos dados*/
+	padding: 6px 12px 6px 0;
+	display: inline-block;
+}
+
+input[type=text]{
+  /*Design da caixa dos inputs de texto*/
+  height: 40px;
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+input[type=submit]{
+  /*Design do butao finalizar*/
+	text-align:center;
+	color: white;
+	margin: 10px;
+	padding: 10px 8px;
+	width: 60%;
+	box-sizing: border-box;
+	cursor: pointer;
+	font: 16px Arial, sans-serif;
+}
+
+article{
+  /*Design dos dados sql*/
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 10px;
+  background-color:  rgb(136, 122, 180);
+  margin-bottom: 5px;
+}
+
+/*Divisao dos dados dentro do formulario*/
+.col-20 {
+  float: left;
+  text-align: center;
+  width: 20%;
+  margin-top: 6px;
+}
+
+/*Divisao dos dados dentro do formulario*/
+.col-80 {
+  float: left;
+  width: 80%;
+  margin-top: 6px;
+}
+
+/*Design do butao*/
+.botao1 {
+  background-color: rgb(122, 91, 219);
+  border: 0px;
+  color: black;
+}
+
+/*Design do butao*/
+.botao1:hover {
+  background-color: rgb(79, 58, 144);
+  color: white;
+}
+
+::placeholder{
+  /*Fonte do texto dentro da caixa dos inputs*/
+	font: 16px Arial, sans-serif;
+}
